@@ -1,0 +1,32 @@
+.navbar-default {
+    background-color: #00517C;
+    color: #FFF;
+    font-size: 28px;
+    padding-left: 35px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+
+
+}
+
+.navbar-default .navbar-nav>.active>a {
+     color: #FFF;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 0, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: silver;
+}
+
+#navbar1 .navbar-nav .nav-link {
+  color: silver;
+}
