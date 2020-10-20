@@ -35,3 +35,6 @@ https://www.ddw-online.com/harnessing-the-modified-proteome-for-increased-diagno
 ## Rheumatoid Arthritis
 
 
+# Additional areas identified in the literature
+
+[Additional areas](AreasLit.html)
