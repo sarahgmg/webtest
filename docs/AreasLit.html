@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>AreasLit.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Biosignatures Technical</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a>
+    <span class=" crop_logo.png"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="index.html">Overview</a>
+</li>
+<li>
+  <a href="workflow.html">Workflows</a>
+</li>
+<li>
+  <a href="Clinical.html">Clinical</a>
+</li>
+<li>
+  <a href="reports.html">Reports</a>
+</li>
+<li>
+  <a href="Markets.html">Market</a>
+</li>
+<li>
+  <a href="References.html">References</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="areas-in-the-literature" class="section level1">
+<h1>Areas in the literature</h1>
+<div id="neurology" class="section level3">
+<h3>Neurology</h3>
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0048783">Differential sialylation of serpin A1 in the early diagnosis of Parkinson’s disease dementia</a></p>
+<p><a href="http://www.jbc.org/content/291/53/27204.short">Human central nervous system (CNS) ApoE isoforms are increased by age, differentially altered by amyloidosis, and relative amounts reversed in the CNS compared …</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0009912017310780">Alzheimer’s disease in the omics era</a></p>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.21038">Cerebrospinal fluid proteomic biomarkers for Alzheimer’s disease</a></p>
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0048783">Differential sialylation of serpin A1 in the early diagnosis of Parkinson’s disease dementia</a></p>
+<p><a href="https://link.springer.com/article/10.1007/s11064-008-9742-5">Proteome analysis of cerebrospinal fluid in amyotrophic lateral sclerosis (ALS)</a></p>
+<p><a href="https://www.prd-journal.com/article/S1353-8020(15)30021-3/abstract">Haptoglobin phenotype and Parkinson disease risk</a></p>
+<p><a href="https://alzres.biomedcentral.com/articles/10.1186/alzrt273">Differentially charged isoforms of apolipoprotein E from human blood are potential biomarkers of Alzheimer’s disease</a></p>
+<p><a href="https://content.iospress.com/articles/journal-of-alzheimers-disease/jad151155">Blood-based biomarker candidates of cerebral amyloid using PiB PET in non-demented elderly</a></p>
+<p><a href="https://content.iospress.com/articles/journal-of-alzheimers-disease/jad101350">Proteome-based plasma markers of brain amyloid-β deposition in non-demented older individuals</a></p>
+<p><a href="https://www.jci.org/articles/view/36663">apoE isoform–specific disruption of amyloid β peptide clearance from mouse brain</a></p>
+<p><a href="https://www.nature.com/nrneurol/journal/v9/n2/abs/nrneurol.2012.263.html">Apolipoprotein E and Alzheimer disease: risk, mechanisms and therapy</a></p>
+<p><a href="http://clinchem.aaccjnls.org/content/30/12/2084.short">Two-dimensional electrophoresis of human plasma apolipoproteins.</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1874391913000559">Parkinson’s disease plasma biomarkers: an automated literature analysis followed by experimental validation</a></p>
+</div>
+<div id="cardiovascular" class="section level3">
+<h3>Cardiovascular</h3>
+<p><a href="https://www.hindawi.com/journals/mi/2013/716902/abs/">Complement C3c as a biomarker in heart failure</a></p>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.2004.080473">Candidate‐based proteomics in the search for biomarkers of cardiovascular disease</a></p>
+</div>
+<div id="diabetes-and-nephropathy" class="section level3">
+<h3>Diabetes and nephropathy</h3>
+<p><a href="https://www.nejm.org/doi/full/10.1056/nejmoa054862">Retinol-binding protein 4 and insulin resistance in lean, obese, and diabetic subjects</a> [diabetes and nephro…]</p>
+<p><a href="http://care.diabetesjournals.org/content/30/3/629.short">Proteomic identification of urinary biomarkers of diabetic nephropathy</a> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jms.1274">On the search for glycated lipoprotein ApoA‐I in the plasma of diabetic and nephropathic patients</a></p>
+<p><a href="https://www.hindawi.com/journals/ije/2013/412103/abs/">Protein glycation in diabetes as determined by mass spectrometry</a></p>
+</div>
+<div id="gammopathies" class="section level3">
+<h3>Gammopathies</h3>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/elps.1150140137">Pattern variations of polyclonal and monoclonal immunoglobulins of different isotypes analyzed by high‐resolution two‐dimensional electrophoresis</a></p>
+<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1749-6632.2010.05840.x">Congenital disorders of glycosylation</a></p>
+</div>
+<div id="multiple-conditions" class="section level3">
+<h3>Multiple Conditions</h3>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S157002320601004X">Human blood plasma preparation for two-dimensional gel electrophoresis</a></p>
+<p><a href="http://clinchem.aaccjnls.org/content/35/12/2297.short">Computerized quantitative analysis of coomassie-blue-stained serum proteins separated by two-dimensional electrophoresis.</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0008874918303253">Immunoglobulin G glycosylation in aging and diseases</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0047637415000317">MARK-AGE biomarkers of ageing</a></p>
+</div>
+<div id="other-cancers" class="section level3">
+<h3>Other cancers</h3>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2998961/">Proteomic analysis for developing new biomarkers of hepatocellular carcinoma</a></p>
+<p><a href="http://cancerres.aacrjournals.org/content/66/5/2592.short">Fibrinogen γ overexpression in pancreatic cancer identified by large-scale proteomic analysis of serum samples</a></p>
+<p><a href="https://www.pnas.org/content/102/3/779.short">Use of targeted glycoproteomics to identify serum glycoproteins that correlate with liver cancer in woodchucks and humans</a></p>
+<p><a href="https://pubs.acs.org/doi/abs/10.1021/pr800752c">Identification and development of fucosylated glycoproteins as biomarkers of primary hepatocellular carcinoma</a></p>
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156277">Fucosylated glycans in α1-acid glycoprotein for monitoring treatment outcomes and prognosis of cancer patients</a></p>
+<p><a href="https://academic.oup.com/glycob/article-abstract/18/12/1105/1990133">A strategy to reveal potential glycan markers from serum glycoproteins associated with breast cancer progression</a></p>
+<p><a href="https://academic.oup.com/glycob/article-abstract/17/12/1344/1988218">Ovarian cancer is associated with changes in glycosylation in both acute-phase proteins and IgG</a></p>
+<p><a href="https://www.nature.com/articles/bjc1991314">Abnormally-fucosylated haptoglobin: a cancer marker for tumour burden but not gross liver metastasis</a></p>
+<p><a href="http://clincancerres.aacrjournals.org/content/13/24/7370.short">Proteomic profiling identifies afamin as a potential biomarker for ovarian cancer</a></p>
+<p><a href="https://link.springer.com/article/10.1007/BF00731322">Glycosylation of alpha-1-proteinase inhibitor and haptoglobin in ovarian cancer: evidence for two different mechanisms</a></p>
+</div>
+<div id="prostate" class="section level3">
+<h3>Prostate</h3>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4279190/">Serum fucosylated prostate-specific antigen (PSA) improves the differentiation of aggressive from non-aggressive prostate cancers</a></p>
+<p><a href="http://clinchem.aaccjnls.org/content/50/6/1017.short">Proenzyme forms of prostate-specific antigen in serum improve the detection of prostate cancer</a></p>
+<p><a href="http://clinchem.aaccjnls.org/content/48/12/2187.short">Structural diversity of cancer-related and non-cancer-related prostate-specific antigen</a></p>
+<p><a href="http://clinchem.aaccjnls.org/content/50/12/2292.short">Analysis of subforms of free prostate-specific antigen in serum by two-dimensional gel electrophoresis: potential to improve diagnosis of prostate cancer</a></p>
+<p><a href="https://www.liebertpub.com/doi/abs/10.1089/omi.2010.0050">Glycan characterization of PSA 2-DE subforms from serum and seminal plasma</a></p>
+</div>
+<div id="rheumatoid-arthritis" class="section level3">
+<h3>Rheumatoid arthritis</h3>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/elps.1150190234">Analysis of changes in acute‐phase plasma proteins in an acute inflammatory response and in rheumatoid arthritis using two‐dimensional gel electrophoresis</a></p>
+</div>
+<div id="misc" class="section level3">
+<h3>Misc</h3>
+<div id="copd" class="section level4">
+<h4>COPD</h4>
+<p><a href="https://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM332181.pdf">https://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM332181.pdf</a></p>
+<p>“FDA has also qualified plasma fibrinogen as a prognostic biomarker for all-cause mortality and COPD exacerbations, improving the power of COPD clinical trials, even when history of exacerbation is also used for enrichment. 3”</p>
+<p><a href="https://www.fda.gov/downloads/Drugs/Guidances/UCM453496.pdf">https://www.fda.gov/downloads/Drugs/Guidances/UCM453496.pdf</a></p>
+<p><a href="https://www.nature.com/articles/s41598-018-37406-9">Relationships of Haptoglobin Phenotypes with Systemic Inflammation and the Severity of Chronic Obstructive Pulmonary Disease</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
