@@ -1,0 +1,21 @@
+name: "tech-website"
+output_dir: "docs"
+include: ["AuditLabReport.html","AuditLabReport.pdf"]
+navbar:
+  title: "Biosignatures Technical"
+  left:
+    - icon: 'crop_logo.png'
+    - text: "Overview"
+      href: index.html
+    - text: "Workflows"
+      href: workflow.html
+    - text: "Clinical"
+      href: Clinical.html
+    - text: "Reports"
+      href: reports.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: flatly
+ 
