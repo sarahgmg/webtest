@@ -5,7 +5,6 @@ title: "Biosignatures China Summary"
 **Business case**
 
 
-
 * China is estimated to be the second largest health industry behind the USA.[^1]
 
 
@@ -34,8 +33,7 @@ Government policies, such as Healthy China 2020 and 2030, have been put in place
 *  ![](Market/DigitalServices.png) The Bain & Company survey, completed in 2019, estimated that 24% of Chinese respondents had used telemedicine.
 *   PingAn Good Doctor, the largest “online medical service” provider in China, saw their online medical services revenue grow by over 100% in the 12 months to August 2020, with a 26% increase in daily online consultations over the same period[^7]. 
 
-
-*   
+  
 
 <!-- Footnotes themselves at the bottom. -->
 ## Notes
