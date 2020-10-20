@@ -47,14 +47,12 @@ knitr::include_graphics("Reports/ProstateMock.png")
 
 # Health providers to use in consultation
 
-Statements such as "a 71% risk of prostate cancer being found if you have a prostate biopsy' have been shown to be difficult for people to visualise. More so in stressful situations such as getting results of tests.
+Statements such as 'a 9% risk of prostate cancer being found if you have a prostate biopsy' have been shown to be difficult for people to visualise. More so in stressful situations such as getting results of tests.
 
 Tailored reports will also be provided, suitable for different disease types that have more visual aids and information.
 
 ```{r  out.width = "50%",fig.align='center',echo=FALSE}
- parts <- c("No Cancer"=25,"Cancer"=71,"Low risk"=4)
- chart <- waffle(parts, rows=10,title="In 100 men with a Prostate Biopsave value around your level")
- print(chart)
+knitr::include_graphics("Reports/ProstatePatient.png") 
 ```
 
 
