@@ -13,6 +13,8 @@ navbar:
       href: Clinical.html
     - text: "Reports"
       href: reports.html
+    - text: "Market"
+      href: markets.html
     - text: "References"
       href: References.html
     - text: "About"

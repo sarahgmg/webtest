@@ -2,4 +2,6 @@
 title: "About This Website"
 ---
 
+This information is intended for the sole use of those specifically directed to it. 
+
 Contact [info@biosignatures.com](mailto:info@biosignatures.com) if you have questions.

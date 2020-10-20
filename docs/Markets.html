@@ -11,7 +11,7 @@
 
 
 
-<title>Detailed Workflow Schematic</title>
+<title>Biosignatures China Summary</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,10 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
-<script src="site_libs/viz-1.8.2/viz.js"></script>
-<link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
-<script src="site_libs/grViz-binding-1.0.6.1/grViz.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -323,30 +319,46 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Detailed Workflow Schematic</h1>
+<h1 class="title toc-ignore">Biosignatures China Summary</h1>
 
 </div>
 
 
-<div id="ecosystem-overview" class="section level2">
-<h2>Ecosystem Overview</h2>
-<p><img src="Workflow/EcosystemOverview.png" /></p>
-<p>Let’s take a relatively standard workflow, we start at the right with the individual who wants to proactively take control of their health. They will have sought a digital health platform and, after initial discussions with a physician on the platform, decide to order relevant testing.</p>
-<p>A blood sample will be taken via a blood spot test kit (though many may prefer an at home visit or to go to a local pharmacy).</p>
-<p>The sample will be sent to an ecosystem partner wet lab to execute the processes that generate the underlying biomarkers. Currently, this is done in our own wet lab but we are in discussion with third party labs and we plan to focus on building capacity with them rather than increasing our own. The cloud software is a key component in enabling third party labs to rapidly adopt delivery of the new measures.</p>
-<p>Our software systems ensure the quality of the processing and perform the image data extraction.</p>
-<p>The measures are then combined to produce multiple disease health insights that are returned to the doctor in the digital health provider.</p>
-<p>There will be two levels of health insight reporting available, one for the health professional and another for the health professional to use in discussions with the patient on how best to move forward on their health journey.</p>
-<p>In terms of the ‘economics of the platform’ we have added illustrative cost allocations across the ecosystem. These are ‘to the health provider costs’ and we assume extra margin will be added by them.</p>
-<p>If we take $100 per sample processed then the ‘from consumer to measures costs’ consist of around $30 to get a sample to the lab, around $50 to process the sample and around $5 for the biosignatures cloud system to extract the measures.</p>
-<p><strong>Those costs are incurred once per sample</strong> and multiple disease tests can be applied.</p>
-<p>We are actively encouraging clinical teams to discover and validate new tests on our platform and so we would become a key component in rapidly delivering their IP to market. Given this, there will be ‘per included test licensing’ costs which we will negotiate up front as part of the collaborations. Royalty / licensing fees are are included as the $15 Health Insights Reporting.</p>
+<p><strong>Business case</strong></p>
+<ul>
+<li><p>China is estimated to be the second largest health industry behind the USA.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p></li>
+<li><p>It increased 10% between 2018 and 2019, with rapid growth over the last five years. In 2019 it was estimated to be worth US$1.1 trillion.</p></li>
+</ul>
+<p><strong>Ageing populations…</strong></p>
+<ul>
+<li><p>“The global population aged 60 years or over numbered 962 million in 2017, more than twice as large as in 1980 when there were 382 million older persons worldwide. The number of older persons is expected to double again by 2050, when it is projected to reach nearly 2.1 billion.”<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> “Globally, the number of older persons is growing faster than the number of people in all younger age groups.”</p></li>
+<li><p>China’s population is 1,439,323,776 in 2020, with 11.5% aged over 65 with an estimated annual growth rate of 2.3%<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p></li>
+</ul>
+<p><strong>Mortality rates in China</strong><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> <img src="Market/Mortality.png" /> * <em>YLL</em> is years of life lost</p>
+<p>We have chosen to focus on areas that have a need, and where there is evidence in the literature that our technology is an effective way of identifying the disease.</p>
+<p>We therefore have focussed on <strong>COPD</strong> (fourth leading cause of death in China), <strong>Alzheimer’s Disease</strong> and other dementia’s (unmet need / current challenges to diagnosis, increased YLL rank between the years of 1990 and 2017, which is also consistent with an increased ageing population), and <strong>Rheumatoid Arthritis</strong>, which, whilst does not directly lead to death, is strongly associated with a shortfall between life expectancy and healthy life expectancy.</p>
+<p>Government policies, such as Healthy China 2020 and 2030, have been put in place to promote risk reduction and encourage healthier lifestyles<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>, and to address health inequity in the overall population.Health outcomes in China continue to be dependent upon geography<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
+<p><strong>Digital Health Providers</strong></p>
+<ul>
+<li><p><img src="Market/DigitalServices.png" /> The Bain &amp; Company survey, completed in 2019, estimated that 24% of Chinese respondents had used telemedicine.</p></li>
+<li><p>PingAn Good Doctor, the largest “online medical service” provider in China, saw their online medical services revenue grow by over 100% in the 12 months to August 2020, with a 26% increase in daily online consultations over the same period<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>.</p></li>
+<li></li>
+</ul>
+<!-- Footnotes themselves at the bottom. -->
+<div id="notes" class="section level2">
+<h2>Notes</h2>
 </div>
-<div id="detailed-ecosystem-workflow-schematic" class="section level2">
-<h2>Detailed Ecosystem Workflow Schematic</h2>
-<p>The protocols and analysis capabilities we have developed enable reproducible and highly automated complex multiplex analysis across the ecosystem partners.</p>
-<div id="htmlwidget-e2307c36a27f1dbdc2a4" style="width:672px;height:100%;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e2307c36a27f1dbdc2a4">{"x":{"diagram":"# https://graphviz.org/doc/info/attrs.html#d:margin\ndigraph G {\n   graph[rankdir = TB, fontname =\"Roboto Condensed\"]\n  \n  node[shape = rectangle, style = filled, margin = 0.3]\n\n  subgraph cluster_0 {\n    fontsize= 36;\n    style=filled;\n    color=lightgrey;\n    node [style=filled,color=white];\n    upload -> align;\n    align -> SPC;\n    SPC -> analyteSpec;\n    analyteSpec -> audit;\n    analyteSpec -> analyteReport;\n    \n    audit -> relReport;\n    \n    softProtocol;\n \n    label = \"Cloud Software\\nAnalysis\";\n  }\n  \n \n  subgraph cluster_1 {\n    fontsize= 36;\n    style=filled;\n    color=lightgrey;\n    node [style=filled,color=white];\n    PlasmaCy5 -> Mixed;\n    StandardCy3 -> Mixed;\n    Mixed -> IEF;\n    IEF -> twoDGE;\n    twoDGE -> Imaging;\n    Imaging -> basicQC;\n    basicQC -> upload;\n    \n    \n    labProtocol;\n\n    label = \"Wet Laboratory\";\n  }\n\n subgraph cluster_2 {\n   fontsize= 36;\n     style=filled;\n    color=lightgrey;\n    node [style=filled,color=white];\n    samplingProtocol[label=\"Sample Collection protocol\",color=green]\n    Blood[label=\"Patient Blood Sample\"] \n\n    label = \"Sample Collection\";\n  }\n\nsubgraph cluster_3 {\n   fontsize= 36;\n     style=filled;\n    color=lightgrey;\n    node [style=filled,color=white];\n    calib[label=\"Calibration procedure\"] \n    calib -> Imaging;\n    label = \"Imager Calibration\";\n  }\n\n\n   overProt[label=\"Select Analyte(s)\",color=orange]\n   samplingProtocol[label=\"Sample Collection protocol\",color=green]\n   labProtocol[label=\"Laboratory protocol\",color=green]\n   softProtocol[label=\"Analysis protocol\",color=green]\n\n\n   PlasmaCy5[label=\"Cy5 labelled\\nPlasma\"]\n   StandardCy3[label=\"Cy3 labelled\\nERM DA 470k\\n or alternative\"]\n   Mixed[label=\"Samples combined\"]\n   \n   IEF[label=\"IEF using 24cm strips\"]\n   twoDGE[label=\"2D Gel electrophoresis\"]\n   \n   analyteSpec[label=\"Analyte Specific Processing\"]\n   analyteReport[label=\"Analyte Report\"];\n   audit[label=\"Detailed Audit Report\"] \n   DHP[label=\"Digital Health Provider\"]\n   LAB[label=\"Wet Laboratory\"]\n   Imaging[label=\"Image Capture\"] \n   basicQC[label=\"Whole Image Quality Review\"] \n   relReport[label=\"Lab verifies results\\nand release report\"] \n\n   upload[label=\"Upload to Platform\"] \n   align[label=\"Alignment to global reference\"]\n   SPC[label=\"Statistical Process Control Images\"]\n   \n   \n  overProt -> samplingProtocol;\n  overProt -> labProtocol;\n  overProt -> softProtocol;\n  \n  samplingProtocol -> Blood;\n  Blood -> PlasmaCy5;\n\n  analyteReport -> DHP;\n  audit -> LAB;\n  LAB -> relReport;\n  relReport -> analyteReport;\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://www.china-briefing.com/news/china-investment-outlook-telemedicine-digital-healthcare-industry/">https://www.china-briefing.com/news/china-investment-outlook-telemedicine-digital-healthcare-industry/</a> accessed 19/10/20<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p><a href="https://www.un.org/en/development/desa/population/publications/pdf/ageing/WPA2017_Highlights.pdf">World Ageing population 2017, United Nations</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p><a href="https://knoema.com/atlas/China/Population-aged-65-years-and-above">https://knoema.com/atlas/China/Population-aged-65-years-and-above</a>, accessed 17.04.20<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>doi.org/10.1016/S0140-6736(19)30427-1<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>Tan X, Liu X, Shao H, Healthy China 2030: a vision for health care. Value Health Reg Issues. 2017; 12: 112-114<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>doi.org/10.1016/S0140-6736(19)30427-1<a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>(<a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0820/2020082000445.pdf" class="uri">https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0820/2020082000445.pdf</a>)<a href="#fnref7" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
 
 
