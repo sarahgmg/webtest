@@ -14,7 +14,7 @@ navbar:
     - text: "Reports"
       href: reports.html
     - text: "Market"
-      href: markets.html
+      href: Markets.html
     - text: "References"
       href: References.html
     - text: "About"
